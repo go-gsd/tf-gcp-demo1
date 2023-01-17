@@ -31,7 +31,7 @@ resource "google_compute_instance" "dev_instance" {
   boot_disk {
     initialize_params {
       image = "ubuntu-os-cloud/ubuntu-minimal-2204-lts"
-      size  = 10
+      size  = 16
     }
   }
 

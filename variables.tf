@@ -41,6 +41,11 @@ variable "required_labels" {
   description = "GCP labels associated with all resource that support labels. The following are required: costcenter, environment, owner, technicalowner"
 }
 
+variable "db_name" {
+  type        = string
+  description = "Database name"
+}
+
 variable "sb_name" {
   type        = string
   description = "Storage Bucket name"

@@ -10,6 +10,7 @@ required_labels = {
   "owner"          = "aman-wolde-bcg-com"
   "environment"    = "nonprod"
 }
+db_name = "dev-sql"
 sb_name = "data-storage"
 vm_name = "dev-server"
 owners  = ["devos.robin@bcg.com", "erdreich.david@bcg.com", "gijsbers.willem@bcg.com", "shrader.david@bcg.com"]
