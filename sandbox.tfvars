@@ -10,4 +10,6 @@ required_labels = {
   "owner"          = "aman-wolde-bcg-com"
   "environment"    = "nonprod"
 }
-owners = ["devos.robin@bcg.com", "erdreich.david@bcg.com", "gijsbers.willem@bcg.com", "shrader.david@bcg.com"]
+sb_name = "data-storage"
+vm_name = "dev-server"
+owners  = ["devos.robin@bcg.com", "erdreich.david@bcg.com", "gijsbers.willem@bcg.com", "shrader.david@bcg.com"]

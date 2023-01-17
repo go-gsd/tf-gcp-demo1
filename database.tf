@@ -1,4 +1,3 @@
-
 /*
 resource "google_project_service" "ntk_service" {
   for_each           = toset([var.host_project_id, var.project_id])

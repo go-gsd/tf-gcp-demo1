@@ -41,6 +41,16 @@ variable "required_labels" {
   description = "GCP labels associated with all resource that support labels. The following are required: costcenter, environment, owner, technicalowner"
 }
 
+variable "sb_name" {
+  type        = string
+  description = "Storage Bucket name"
+}
+
+variable "vm_name" {
+  type        = string
+  description = "Virtual Machine name"
+}
+
 /*
  * IAM Roles
  */

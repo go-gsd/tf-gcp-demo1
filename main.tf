@@ -1,13 +1,3 @@
-locals {
-  bcg_org_name   = lower(var.bcg_org_name)
-  env            = lower(var.env)
-  product_name   = lower(var.product_name)
-  region         = lower(var.region)
-  sb_name        = "data-storage"
-  vm_name        = "dev-server"
-  vm_target_tags = ["test"]
-}
-
 resource "random_id" "suffix" {
   byte_length = 2
 }
@@ -25,6 +15,7 @@ module "test_project" {
   disable_dependent_services = true
   activate_apis = [
     "cloudresourcemanager.googleapis.com",
+    "logging.googleapis.com",
     "monitoring.googleapis.com",
     "networkmanagement.googleapis.com"
   ]

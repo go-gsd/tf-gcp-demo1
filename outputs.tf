@@ -10,6 +10,10 @@ output "project_id" {
   value = module.test_project.project_id
 }
 
-output "storage_bucket_name" {
+output "sb_full_name" {
   value = google_storage_bucket.data_storage.name
+}
+
+output "vm_full_name" {
+  value = google_compute_instance.dev_instance.name
 }
